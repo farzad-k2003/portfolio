@@ -1,0 +1,66 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner-container {
+  padding: 100px 20px;
+  height: auto !important;
+}
+
+.banner-container .banner {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.banner-container .banner img {
+  margin: 40px;
+  width: calc(100% - 80px);
+}
+
+.banner-container .banner .border1 {
+  position: absolute;
+  width: calc(100% - 40px);
+  height: 100%;
+  border: 1px solid #d6c8a58c;
+  border-radius: 2px;
+  left: 20px;
+  right: 20px;
+}
+
+.banner-container .banner .border2 {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 40px);
+  border: 1px solid #d6c8a58c;
+  border-radius: 2px;
+  top: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+  .banner-container {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=Banner.css.map */

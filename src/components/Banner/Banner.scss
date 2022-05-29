@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-container {
+  padding: 100px 20px;
+  height: auto !important;
+
+  .banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    img {
+      margin: 40px;
+      width: calc(100% - 80px);
+    }
+
+    .border1 {
+      position: absolute;
+      width: calc(100% - 40px);
+      height: 100%;
+      border: 1px solid #d6c8a58c;
+      border-radius: 2px;
+      left: 20px;
+      right: 20px;
+    }
+
+    .border2 {
+      position: absolute;
+      width: 100%;
+      height: calc(100% - 40px);
+      border: 1px solid #d6c8a58c;
+      border-radius: 2px;
+      top: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .banner-container {
+    width: 50%;
+  }
+}

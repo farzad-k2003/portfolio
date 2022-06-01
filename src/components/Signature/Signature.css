@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+.signature {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.signature h2 {
+  font-family: "Shadows Into Light";
+  color: #666666;
+  font-size: 48px;
+}
+/*# sourceMappingURL=Signature.css.map */

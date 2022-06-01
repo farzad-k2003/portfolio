@@ -1,0 +1,35 @@
+.about-me {
+  padding: 150px 0 50px 0;
+
+  .content {
+    padding-bottom: 74px;
+  }
+
+  .personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .personal-info-name,
+    .personal-info-info {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+
+      h3 {
+        padding: 9px 10px 9px 0;
+        font-size: 18px;
+        color: #888888;
+        letter-spacing: 1px;
+        font-weight: 500;
+      }
+
+      .item-info {
+        color: #dddddd;
+        font-weight: 400;
+      }
+    }
+  }
+}

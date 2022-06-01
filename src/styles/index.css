@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import url("../components/Main/Main.css");
 @import url("../components/Banner/Banner.css");
+@import url("../components/Content/Content.css");
+@import url("../components/Introduction/Introduction.css");
+@import url("../components/Signature/Signature.css");
+@import url("../components/AboutMe/AboutMe.css");
+@import url("../components/AboutMe/AboutMe.css");
 
 * {
   margin: 0;
@@ -11,12 +16,13 @@
 
 body {
   font-family: "Jost", sans-serif;
+  padding: 100px 20px;
 }
 
 p {
   color: #999999;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 main {

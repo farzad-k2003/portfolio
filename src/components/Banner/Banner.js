@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="banner-container">
+    <div className="banner-container right-side">
       <div className="banner">
         <img src={`/edward-howell-FTRkZnSrr1M-unsplash.jpg`} />
         <div className="border1"></div>
